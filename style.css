@@ -1,3 +1,6 @@
+body{
+  font-family: 'Gugi', sans-serif;
+}
 ul li:hover{
     font-size: 25px;
 }
@@ -24,6 +27,10 @@ ul li:hover{
   color: white;
   padding: 7px;
   margin: 10px;
+}
+.navList{
+  padding-left: 15px;
+  padding-right: 15px;
 }
  .mainButton {
   border: 2px solid black;
@@ -53,8 +60,18 @@ ul li:hover{
     border-width: thin;
     border-color: white;
     border: 2px solid white;
+    padding: 15px;
+    margin: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    /* margin-left: 5px;
+    margin-right: 10px; */
   }
-  
+  .listSym{
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+  }
   .aboutMe {
     border: 2px solid black;
     border-radius: 25px;
@@ -74,6 +91,10 @@ ul li:hover{
   .homeBtn, .aboutBtn, .portfolioBtn, .contactBtn {
     background-color: rgb(19, 167, 19);
     color: white;
+    text-align: center;
+    margin: 6px;
+    padding: 10px;
+
   }
   
   .aboutPage, .portfolioPage, .contactPage{
