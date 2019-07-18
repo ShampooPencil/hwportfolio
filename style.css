@@ -17,7 +17,9 @@ ul li:hover{
   align-items: center;
 
 }
-
+/* .dropdown-menu{
+  background-color: black;
+} */
 .fullName{
   color: white;
   padding: 7px;
@@ -29,6 +31,9 @@ ul li:hover{
   padding: 10px;
   margin: 10px;
 } 
+.mainButton:hover{
+  background-color: white;
+}
 
 .superSizer{
     background-image: url("./images/pexels-photo-270360.jpeg");
