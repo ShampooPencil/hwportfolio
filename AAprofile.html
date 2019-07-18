@@ -6,54 +6,112 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        
+        <link rel="stylesheet" type="text/css" href="./style.css" />
+
         <!--<link href="bootstrap-social.css" rel="stylesheet">-->
         <link rel="stylesheet" href="/Users/Shampopencil/Desktop/HomeWorks/homework2/bootstrap_portfolio/Responsiveness_Assignment_HW2/HW2/style.css">
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
+        <!-- <link rel="stylesheet" src="./style.css" /> -->
 
-        <style>
-                
-        </style>
+        
     </head>
     
-    <body class="bg-primary" style="color:aliceblue;"> 
+    <body style="color:aliceblue;"> 
+        <div class="superSizer"></div>
         <div class="container">
-                    
             
                 
-                    <nav class="navbar navbar-expand-sm navbar-black bg-primary fixed-top">
+                    <nav class="navbar navbar-expand-lg navbar-black bg-dark fixed-top flexBar">
+                            <!-- <button class="navbar-toggler btn btn-outline-success" id="styleNavbarBtn" type="button" data-toggle="collapse" data-target="#divBar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                            </button> -->
                         <div class="row">   
                             
                             <div class="col">
-                                <h3 class="alert alert-primary">Andrew Aramouni</h3>
+                                <h3 class="fullName">Andrew Aramouni</h3>
                             </div>
                         </div>
+                        <button style="text-align: center;" class="navbar-toggler btn-lg mainButton" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="fas fa-coffee"></span>
+                              </button>
+                              
+                              <div class="collapse navbar-collapse" id="navbarNav">
+                                <!-- <ul class="navbar-nav">
+                                  <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#">About</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#">Projects</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link disabled" href="#">Contacts</a>
+                                  </li>
+                                </ul> -->
+                            <ul class="navbar-nav">
+                                <li class="alert alert-success homeBtn"><a class="page-item" href="AAprofile.html">Home <span class="sr-only">(current)</span></a></li>
+                                <div class="col"></div>
+                                <li class="alert alert-success aboutBtn"><a class="page-item" href="#About">About <span class="sr-only">(current)</span></a></li>
+                                <div class="col"></div>
+                                <li class="alert alert-success portfolioBtn"><a class="page-item" href="#Portfolio"> Portfolio<span class="sr-only">(current)</span></a></li>
+                                <div class="col"></div>
+                                <li class="alert alert-success contactBtn"><a class="page-item" href="#Contact">Contact <span class="sr-only">(current)</span></a></li>
+                                <div class="col"></div>
+                            </ul>
+                              </div>
                             
                             
                                 
                                     <div class="col"></div>
                                     <div class="col"></div>
                                     
-                                <ul class="navbar-nav">
-                                    <div class="collapse navbar-collapse" id="navbarNav">
+
                                     
-                                    <li class="alert alert-success"><a class="page-item" href="AAprofile.html">Home <span class="sr-only">(current)</span></a></li>
-                                    <div class="col"></div>
-                                    <li class="alert alert-success"><a class="page-item" href="#About">About <span class="sr-only">(current)</span></a></li>
-                                    <div class="col"></div>
-                                    <li class="alert alert-success"><a class="page-item" href="#Portfolio"> Portfolio<span class="sr-only">(current)</span></a></li>
-                                    <div class="col"></div>
-                                    <li class="alert alert-success"><a class="page-item" href="#Contact">Contact <span class="sr-only">(current)</span></a></li>
-                                    <div class="col"></div>
+                                    <div class="collapse navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav">
+                                    <li>
+                                            <a class="btn-social-icon btn-lg bg-success text-white btn-github socialSymbol" href="https://github.com/ShampooPencil">
+                                            <span class="fa fa-github"></span>
+                                        </a>
+                                        </li>
+                                        
+                                        <li>
+                                            <a class="btn-social-icon btn-lg bg-success text-white btn-facebook socialSymbol" href="https://www.facebook.com/mounslice">
+                                                <span class="fa fa-facebook"></span>
+                                            </a>
+                                        </li>
+                                        
+                                        <li>
+                                            <a class="btn-social-icon btn-lg bg-success text-white btn-slack socialSymbol">
+                                                <span class="fa fa-slack"></span>
+                                        </a>
+                                        </li>
+                                        
+                                        <li>
+                                            <a class="btn-social-icon btn-lg bg-success text-white btn-linkedin socialSymbol" href="https://www.linkedin.com/in/andrew-aramouni-23a76b171/">
+                                                <span class="fa fa-linkedin"></span>
+                                        </a>
+                                    </li>
+                                    </div>
                                     
                                     </div>
                                 </ul>
                             
                     </nav>
-                
+                <div class="row">   
+                            
+                            <div class="col">
+                                <h3 class="alert alert-primary">Andrew Aramouni</h3>
+                            </div>
+                        </div>
             
                
         <br/>
@@ -62,95 +120,51 @@
        <br/>
        <br/>
         <div class="container" style="border-radius: 25px">
-            <div class="container-fluid">
+            <!-- <div class="container-fluid">
                 <div class="card-heading">
-                    <div class="card bg-success text-white">
+                     <div class="card bg-success text-white">
                         <div class="text-center">
                             <h1>
-                                Profile
+                                PROFILE
                             </h1>
-                        </div>
+                        </div> 
                 </div>
-            </div>
+            </div> -->
 
         
             <br/>   
                 <img class="float-right" src="./images/goodPicForResume.png" alt="Andrew A. Aramouni" width="300" height="400"
                 onmouseover="this.src='./images/funnyMonkeyPic.jpg'" 
                 onmouseout="this.src='./images/goodPicForResume.png'" style="border-radius: 25px;">
-            <!-- <div class="card bg-success text-white" style="border-radius: 25px"> -->
-                <!-- <div class="card-body">
-                    <p>
-                        //Write a short paragraph//Remove-->
-                        <!-- This Beautiful MAN is Andrew Aramouni. 
-                        He LOVES superhero's, video games, sports, and hanging with friends!
-                        He is in this Boot Camp at Case Western Reserve. Oh and its HARD ALRIGHT but worth it, LAWLZ! -->
-                    <!-- </p> -->
-            <!--<div class="">
-                <ul>
-                    <li>Email:<a href="https://www.google.com/">aramouni8@gmail.com</a></li>
-                    <li><a href="https://github.com/">Github:</a> ShampooPencil(USERNAME)</li>
-                    <li>Portfolio(WORK IN PROGRESS)</li>
-                    </ul>
-            </div>-->
-            
-                <!-- </div> -->
-            <!-- </div> -->
-        </div>
+                
+                <div class="card-body">
+                    
+                    <div class="card aboutMe">
+                        
+                        
+                            <h2 style="text-align:center; padding: 10px">Full-Stack programmer</h2>
+                            <h2 style="text-align:center; padding: 10px">Experience programmer for 4 plus years</h2>
+                            <h2 style="text-align:center; padding: 10px">Superhero's, video games, sports, and hanging with friends</h2>
+                            <h2 style="text-align:center; padding: 10px">Hire me</h2>
+                    
+                            
+                    </div>
+                   
+                
+          
+       
          
                 
        
                
             
-        </div>
+        
         <br/>
         <br/>
         <br/>
         <br/>
         <br/>
-        <div class="container">
-            <nav class="navbar navbar-expand-md bg-primary">
-                <div class="row">
-
-                    <div class="card-heading bg-primary">
-                        <div class="card bg-primary">
-                               
-                                
-                                <ul class="navbar-nav bg-primary">
-                                    <!-- <div class="col"></div> -->
-
-                                    <li>
-                                        <a class="btn-social-icon btn-lg bg-success text-white btn-github" href="https://github.com/ShampooPencil">
-                                        <span class="fa fa-github"></span>
-                                    </a>
-                                    </li>
-                                    
-                                    <li>
-                                        <a class="btn-social-icon btn-lg bg-success text-white btn-facebook" href="https://www.facebook.com/mounslice">
-                                            <span class="fa fa-facebook"></span>
-                                        </a>
-                                    </li>
-                                    
-                                    <li>
-                                        <a class="btn-social-icon btn-lg bg-success text-white btn-slack">
-                                            <span class="fa fa-slack"></span>
-                                    </a>
-                                    </li>
-                                    
-                                    <li>
-                                        <a class="btn-social-icon btn-lg bg-success text-white btn-linkedin" href="https://www.linkedin.com/in/andrew-aramouni-23a76b171/">
-                                            <span class="fa fa-linkedin"></span>
-                                    </a>
-                                    </li>
-                                    <!-- <div class="col"></div> -->
-                                
-                                
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-            </div>
+        
             <br/>
             <br/>
             <br/>
@@ -173,7 +187,7 @@
             <br/>
             <br/>
           
-            <div class= "container" id="about" style="background-color: brown; border: 2px solid red; border-radius: 25px; margin: 70px; padding: 50px; padding-top: 100px;">
+            <div class= "container aboutPage" id="about">
                 <h1>About</h1>
                 <div class="row">
                     <div class ="col">
@@ -190,9 +204,7 @@
                              <li>Love movies, especially comedies</li>
                              <li>Love doing basketball, and running</li>
                              <li>Hang with friend and meeting new people</li>
-                         </ul><!--Just a student of Web Design and learning the field every day.
-                        It is my passion and I just want to get better and wiser programming. On the side, I enjoy funny movies, 
-                        video games, basketball, and meeting new person daily.> -->
+                         </ul>
                     </div>
                 </div>
             </div>
@@ -208,8 +220,8 @@
             <br/>
             
             
-            <div class= "container" id="portfolio" style="background:indianred; border: 2px solid red; border-radius: 25px; margin: 70px; padding: 50px; padding-top: 100px;">
-                <h1>Portfolio</h1>
+            <div class= "container portfolioPage" id="portfolio">
+                <h1>Projects</h1>
                 <div class="row">
                     <div class ="col">
                         Here are some cool projects with me or with a group:
@@ -226,9 +238,9 @@
             <br/>
             <a name="Contact"></a>
             <br/>
-            <div class= "container" id ="contact" style="background-color: darkmagenta; border: 2px solid red; border-radius: 25px; margin: 70px; padding: 50px; padding-top: 100px;">
-                <br/>
-                <br/>
+            <div class= "container contactPage" id ="contact">
+                <!-- <br/>
+                <br/> -->
                 <h1>Contact</h1>
                 <div class="row">
                         <div class ="col">
@@ -240,6 +252,9 @@
                         </div>
                 </div>
             </div>
+        </div>
+        </div>
+    </div>
             <br/>
            
             
