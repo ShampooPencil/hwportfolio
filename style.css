@@ -4,6 +4,9 @@ body{
 ul li:hover{
     font-size: 25px;
 }
+ul {
+  list-style-type: none;
+}
 #about:hover,#portfolio:hover,#contact:hover{
     font-size: 20px;
 }
