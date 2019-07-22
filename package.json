@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ShampooPencil/hwportfolio/issues"
   },
-  "homepage": "https://github.com/ShampooPencil/hwportfolio#readme"
+  "homepage": "https://github.com/ShampooPencil/hwportfolio#readme",
+  "dependencies": {
+    "package-json": "^6.4.0"
+  }
 }
