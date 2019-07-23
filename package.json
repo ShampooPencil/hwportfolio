@@ -1,7 +1,7 @@
 {
   "name": "andrews-profile",
   "version": "1.0.0",
-  "description": "",
+  "description": "bio Andrew Aramouni's Portfolio",
   "main": "index.js",
   "scripts": {
     "start": "node server.js"
@@ -20,5 +20,7 @@
     "config.json": "0.0.4",
     "express": "^4.17.1",
     "package-json": "^6.4.0"
-  }
+  },
+  "devDependencies": {},
+  "keywords": []
 }
