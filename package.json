@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ShampooPencil/hwportfolio#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "package-json": "^6.4.0"
   }
 }
