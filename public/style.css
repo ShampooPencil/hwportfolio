@@ -120,6 +120,15 @@ ul {
     color: white;
   }
 
+  .showingProjects{
+    background-color: rgb(19, 167, 19);
+    color: white;
+    border: 2px solid black;
+    /* text-align: center; */
+    margin: 6px;
+    padding: 10px;
+  }
+
   /* @media only screen and (max-width: 1000px) {
     #navs, #navbarDropdown {
       font-size: 22px;
