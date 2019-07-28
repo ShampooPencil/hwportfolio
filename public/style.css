@@ -1,9 +1,9 @@
 body{
   font-family: 'Gugi', sans-serif;
 }
-ul li:hover{
+/* ul li:hover{
     font-size: 25px;
-}
+} */
 ul {
   list-style-type: none;
 }
